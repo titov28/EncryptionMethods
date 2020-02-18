@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{801BDF40-E671-4283-A2D6-8855D58AECC2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8495E4CE-BDFA-4C67-AFE8-3796D4F9B759} = {8495E4CE-BDFA-4C67-AFE8-3796D4F9B759}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionMethods", "EncryptionMethods\EncryptionMethods.csproj", "{8495E4CE-BDFA-4C67-AFE8-3796D4F9B759}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{801BDF40-E671-4283-A2D6-8855D58AECC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801BDF40-E671-4283-A2D6-8855D58AECC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801BDF40-E671-4283-A2D6-8855D58AECC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801BDF40-E671-4283-A2D6-8855D58AECC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8495E4CE-BDFA-4C67-AFE8-3796D4F9B759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8495E4CE-BDFA-4C67-AFE8-3796D4F9B759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8495E4CE-BDFA-4C67-AFE8-3796D4F9B759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8495E4CE-BDFA-4C67-AFE8-3796D4F9B759}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82435F10-3785-472C-A21C-34C3B974E877}
+	EndGlobalSection
+EndGlobal
