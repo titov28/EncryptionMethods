@@ -15,10 +15,10 @@ namespace Main
                                'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' '};
 
 
-            char[] key = { 'A', 'B', 'C' };
+            char[] key = { 'G', 'K', 'O' };
 
             string enterString = "ONE TWO";
-            VigenereCipher cipher = new VigenereCipher(alphabet, 1);
+            VigenereCipher cipher = new VigenereCipher(alphabet, 2);
 
             cipher.PrintKeyCard();
 

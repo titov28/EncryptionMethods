@@ -139,7 +139,7 @@ namespace EncryptionMethods
 
             for (int i = 0; i < keyCard.GetUpperBound(0) + 1; i++)
             {
-                if (enterStringElem == keyCard[indexKeyElem, i])
+                if (enterStringElem == keyCard[i, indexKeyElem])
                 {
                     indexEnterStringElem = i;
                     break;
